@@ -8,6 +8,7 @@ This Student Grade Management System is a Python program that allows users to ma
 - **Update Student Record:** Update existing student information.
 - **Delete Student Record:** Remove a student from the records.
 - **View All Student Records:** Display details of all students.
+- **Search All Student Records:** Search students.
 
 ## Requirements
 
@@ -19,16 +20,27 @@ This Student Grade Management System is a Python program that allows users to ma
 
    ```bash
    git clone https://github.com/yourusername/student-grade-management-system.git
+   ```
 
 2. **Navigate to the Directory:**
 
    ```bash
    cd student-grade-management-system
+   ```
 
-3. **Run the Program:**
+3. **Install dependencies**
 
    ```bash
-   python main.py
-   
+   pip install -r requirements.txt
+   ```
+
+4. **Run Flask server:**
+
+   ```bash
+   python app.py
+   ```
+
 ## Program Structure
-- **`main.py`**: The main script that runs the program and contains the functions for managing student grades.
+
+- **`app.py`**: The main script that runs the server and contains the functions for routes.
+- **`templates/`**: Contains templates to render index, add, update student pages.
